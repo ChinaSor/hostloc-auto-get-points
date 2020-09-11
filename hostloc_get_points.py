@@ -20,7 +20,7 @@ def randomly_gen_uspace_url() -> list:
 # 登录帐户
 def login(username: str, password: str) -> req_Session:
     headers = {
-        "user-agent": "User-Agent,Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50",
+        "user-agent": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50",
         "origin": "https://www.hostloc.com",
         "referer": "https://www.hostloc.com/forum.php",
     }
